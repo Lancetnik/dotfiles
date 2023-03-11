@@ -121,7 +121,8 @@ schemes:
         cyan: "#59dffc"
         white: "#e6e6d1"
 # Choose ONE color scheme from those available in the above list.
-#colors: *dracula
+# colors: *dracula
+# colors: *ayudark
 # colors: *doom-one
 colors: *ayudark
 
