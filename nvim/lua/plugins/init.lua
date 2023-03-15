@@ -11,14 +11,14 @@ end
 
 local packer_bootstrap = ensure_packer()
 
-return require('packer').startup(function(use)
+require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   use {
     'pocco81/auto-save.nvim',
     config = function() require('auto-save').setup() end
   }
-  
+
   -- LSP
   use 'neovim/nvim-lspconfig'
   use {
@@ -98,3 +98,5 @@ return require('packer').startup(function(use)
     require('packer').sync() -- Install all plugins first time
   end
 end)
+
+require("plugins.lsp")
