@@ -99,4 +99,4 @@ require('packer').startup(function(use)
   end
 end)
 
-require("plugins.lsp")
+require("plugins.python")
