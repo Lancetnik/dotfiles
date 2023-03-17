@@ -1,7 +1,7 @@
 window:
   opacity: 0.95
   padding:
-    x: 0
+    x: 8
     y: 0
   decorations: full
   dynamic_padding: true
@@ -36,14 +36,10 @@ schemes:
       magenta: "#FFEE99"
       cyan: "#95E6CB"
       white: "#FFFFFF"
-
-    cursor:
-      text: CellBackground
-      cursor: "#528bff"
     
-    selection:
-      text: CellForeground
-      background: "#3e4451"
+    cursor:
+      text: '#0A0E14'
+      cursor: '#B3B1AD'
 
 colors: *ayudark
 

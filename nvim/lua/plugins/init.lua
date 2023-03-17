@@ -48,9 +48,6 @@ require('packer').startup(function(use)
       require('plugins.autocomplete')
     end
   }
-
-  -- Theme
-  use 'ayu-theme/ayu-vim'
   
   -- Navigation
   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
